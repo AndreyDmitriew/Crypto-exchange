@@ -1,0 +1,33 @@
+@import '../../styles/colors.scss';
+
+.customInputContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: $inputBackground;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.currencyDropdown {
+  height: 22px;
+  width: 22px;
+}
+
+.currencyAbbreviation {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 10px;
+}
+
+.currencyFullName {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 10px;
+  color: $fontGrey;
+}

@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.MuiPaper-root ul {
+  height: 200px;
+  background-color: #F6F7F8;
+  width: 440px;
+}
+
+.MuiMenu-paper  {
+  left: 100px;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
